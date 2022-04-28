@@ -5,7 +5,7 @@ SageMakerでmnistモデルを訓練し、エンドポイントとしてデプロ
 ## 実行順序
 
 1. mnist_cnn.ipynb
-2. deployer.ipynb
+2. deploy.ipynb
 3. predict.ipynb
 
 ## ファイル説明
@@ -15,14 +15,14 @@ SageMakerでmnistモデルを訓練し、エンドポイントとしてデプロ
 ├── data
 │   └── mnist.pickle : mnistの訓練およびテストデータ。
 		       mnist_cnn.pyから生成される。
-├── deployer.ipynb : h5形式のモデルをSavedModelへ変換し、SageMakerのエンドポイントへデプロイするスクリプト。
+├── deploy.ipynb : h5形式のモデルをSavedModelへ変換し、SageMakerのエンドポイントへデプロイするスクリプト。
 ├── mnist_cnn.ipynb : SageMakerを介してモデルの訓練スクリプトを叩くスクリプト。
 ├── mnist_cnn.py : モデル定義および訓練スクリプト。
 ├── model.h5 : h5形式のモデル。
 	       mnist_cnn.ipynbから生成される。
 ├── model.tar.gz : SageMakerにデプロイするためにセットアップしたモデルディレクトリを圧縮したファイル。
 		   tf_model/codeおよび、tf_model/mnistを含む。
-		   deployer.ipynbから生成される。
+		   deploy.ipynbから生成される。
 ├── output.tar.gz : 訓練済みモデル。mnist_cnn.pyから生成される。
 ├── README.md : このファイル
 └── tf_model : SageMakerにデプロイするためにセットアップしたモデルディレクトリ
