@@ -2,6 +2,11 @@
 
 SageMakerでmnistモデルを訓練し、エンドポイントとしてデプロイし、推論のサンプルを示すプロジェクト。
 
+## 実行順序
+
+1. mnist_cnn.ipynb
+2. deployer.ipynb
+
 ## ファイル説明
 
 ```
