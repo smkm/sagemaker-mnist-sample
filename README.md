@@ -1,8 +1,8 @@
-# sagemaker-mnist-sample
+## sagemaker-mnist-sample
 
 SageMakerでmnistモデルを訓練し、エンドポイントとしてデプロイし、推論のサンプルを示すプロジェクト。
 
-# ファイル説明
+## ファイル説明
 
 ```
 .
@@ -31,7 +31,7 @@ SageMakerでmnistモデルを訓練し、エンドポイントとしてデプロ
     └── model.tar.gz
 ```
 
-# 参考
+## 参考
 
 ＊[KerasのMNIST CNNでSageMakerの基本を理解する - Qiita](https://qiita.com/maeda_mikio/items/beefac54c788a7f23218)
 * [バージョンに注意！Amazon SageMakerでのモデルデプロイと推論 | MISO](https://www.tdi.co.jp/miso/amazon-sagemaker-deploy)
