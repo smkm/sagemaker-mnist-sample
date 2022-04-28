@@ -6,6 +6,7 @@ SageMakerでmnistモデルを訓練し、エンドポイントとしてデプロ
 
 1. mnist_cnn.ipynb
 2. deployer.ipynb
+3. predict.ipynb
 
 ## ファイル説明
 
@@ -38,5 +39,5 @@ SageMakerでmnistモデルを訓練し、エンドポイントとしてデプロ
 
 ## 参考
 
-＊[KerasのMNIST CNNでSageMakerの基本を理解する - Qiita](https://qiita.com/maeda_mikio/items/beefac54c788a7f23218)
+* [KerasのMNIST CNNでSageMakerの基本を理解する - Qiita](https://qiita.com/maeda_mikio/items/beefac54c788a7f23218)
 * [バージョンに注意！Amazon SageMakerでのモデルデプロイと推論 | MISO](https://www.tdi.co.jp/miso/amazon-sagemaker-deploy)
